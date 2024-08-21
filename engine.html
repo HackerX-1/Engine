@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Home</title>
+      	<link rel="icon" href="logo.svg">
+<style type="text/css">
+	body{
+		color: white;
+		width: 100%;
+		height: 100%;
+	}
+	.main{
+		background-image: url(bg.jpeg);
+		background-repeat: no-repeat;
+		background-size: cover;
+		width: 95%;
+		justify-content: center;
+		align-items: center;
+		height: 90vh;
+		border-radius: 20px;
+	}
+	h1{
+		font-size: 60pt;
+		text-align: center;
+		font-family: arial;
+		color: white;
+		margin: none;
+		border: none;
+		padding: none;
+		margin-top: 10px;
+	}
+	.search-box{
+		width: 95vh;
+		height: 5vh;
+		border-radius: 20px;
+		background-color: white;
+		justify-content: center;
+		align-items: center;
+		display: flex;
+	}
+	input{
+		width: 80vh;
+		height: 5vh;
+		border-radius: 20px;
+		padding: none;
+		margin: none;
+		border: none;
+		font-family: arial;
+		font-size: 14pt;
+		color: black;
+	}
+	input:focus{
+		outline: none;
+	}
+	input:placeholder{
+		font-size: 15pt;
+		color: black;
+		font-family: arial;
+		text-align: center;
+		float: right;
+	}
+	button{
+		width: 10vh;
+		height: 5vh;
+		color: black;
+		background-color: white;
+		margin: none;
+		border: none;
+		border-radius: 20px;
+		font-size: 14pt; 
+	}
+	button:hover{
+		font-size: 15pt; 
+	}
+	button:focus,button:active{
+		margin: none;
+		border: none;
+		padding: none;
+	}
+</style>
+</head>
+<body bgcolor="white">
+<center>
+<div class="main">
+	<h1>Cyber X</h1>
+
+	<div class="search-box">
+		<form action="https://www.google.com/search?" method="get">
+			<table border="0">
+				<tr>
+					<td>
+						<input type="search" name="q" placeholder="Search the web" target="_blank" value="">
+					</td>
+					<td>
+						<button type="submit">Search</button>
+					</td>
+				</tr>
+			</table>
+		</form>
+	</div>	
+</div>
+</center>
+<div>
+	<p id="info"></p>
+</div>
+</body>
+</html>
